@@ -1,0 +1,26 @@
+/* header */
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+  }
+
+/* footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .contact {
+      text-align: left;
+      font-size: 20px;
+  }
