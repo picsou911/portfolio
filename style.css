@@ -1,7 +1,17 @@
+body, html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 /* header */
 
  .header {
-    padding: 60px;
+    
+    padding: 120px;
     text-align: center;
     background: black;
     color: white;
@@ -9,38 +19,57 @@
     
   }
 
- .annimation {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.button {
+  position: absolute;
+  top: 5%;
+  left: 78%;
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 2em;
+  /*font-family: serif;*/
+  color: black;
+  text-align: center;
+  animation: effect 2s linear infinite;
+  font-family: 'Source Code Pro', monospace;
+  
+}
+
+h2 {
+  font-size: 2em;
   font-family: serif;
   color: transparent;
   text-align: center;
   animation: effect 2s linear infinite;
-  
 }
 
-@keyframes effect {
-  0% {
-      background: linear-gradient(
-              #008000, #00FF00);
-      -webkit-background-clip: text;
-  }
-
-  100% {
-      background: linear-gradient(
-              #3CE7D7, #000FFF);
-      -webkit-background-clip: text;
-  }
+.jp {
+  position: absolute;
+  top: 10%;
+  left: 5%;
 }
+
+.dwfs {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+/* main */
+
+
+
+/*main {
+  background: red;
+  display: block;
+  width : auto;
+  height: 55%;
+}*/
+
+
 /* footer */
 
 .footer {
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
@@ -49,7 +78,22 @@ h1 {
     text-align: center;
   }
 
+  .propos {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .compétences {
+    text-align: left;
+    font-size: 20px;
+  }
+
   .contact {
-      text-align: left;
-      font-size: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+    .copyright {
+    text-align: left;
+    font-size: 20px;
   }

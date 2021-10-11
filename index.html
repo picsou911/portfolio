@@ -5,19 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
-    <div class="header">
-        <div class="annimation">
-        <h1>Jean-Paul BEAUDONNET</h1>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    
+    
+      
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">A Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Coordonnées</a>
+            </li>
+          </ul>
         </div>
-        <h2>Développeur Web Full Stack</h2>
-        
-    </div>
-    <div class="footer">
-        <p class="contact">contact:</p>
-        
       </div>
+      </nav>
+        
+    
+    <div class="header">
+        <div class="jp">
+          <h1><code>< Jean-Paul BEAUDONNET /></code></h1>
+        </div>
+        
+        <div class="dwfs">
+            <h2><code>{ Développeur Web Full Stack }</code></h2>
+        </div>
+    </div>
+    <main>
+      
+      <div id="section1" class="container-fluid bg-success text-white" style="height: 400px; padding:100px 20px;">
+        <h1>A Propos</h1>
+        <br>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      
+      <div id="section2" class="container-fluid bg-warning" style="height: 500px; padding:100px 20px;">
+        
+        <div class="container mt-3">
+          <h1>Compétences</h1>
+          <br>
+          <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" style="width:30%"></div>
+          </div>
+          <br>
+          <div class="progress">
+            <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+          </div>
+          <br>
+          <div class="progress">
+            <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+          </div>
+          <br>
+          <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped" style="width:60%"></div>
+          </div>
+          <br>
+          <div class="progress">
+            <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="section3" class="container-fluid bg-secondary text-white" style="height: 750px;padding:100px 20px;">
+        <h1>Coordonnées</h1>
+        <br>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <p class="propos"><a href="#section1">A Propos</a></p>
+        <p class="compétences"><a href="#section2">Compétences</a></p>
+        <p class="contact"><a href="#section3">Coordonnées</a></p>
+        <p class="copyright">Copyright 2021</p>
+      </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
