@@ -17,19 +17,24 @@
       
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-          <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#section1">A Propos</a>
+              <a class="nav-link" href="#section1">
+                Accueil
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section2">Compétences</a>
+              <a class="nav-link" href="#section2">A Propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section3">Coordonnées</a>
+              <a class="nav-link" href="#section3">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">Coordonnées</a>
             </li>
           </ul>
         </div>
@@ -37,7 +42,7 @@
       </nav>
         
     
-    <div class="header">
+    <!--<div class="header">
         <div class="jp">
           <h1><code>< Jean-Paul BEAUDONNET /></code></h1>
         </div>
@@ -45,60 +50,107 @@
         <div class="dwfs">
             <h2><code>{ Développeur Web Full Stack }</code></h2>
         </div>
-    </div>
+    </div>-->
     <main>
+      <div id="section1" class="container-fluid bg-primary text-white" style="height: 230px; padding:100px 20px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 col-md-6">
+              <h1><code>< Jean-Paul BEAUDONNET /></code></h1>
+            </div>
+            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+              <h2><code>{ Développeur Web Full Stack }</code></h2>
+            </div>
+          </div>
+        </div>
+            
+              
+          
+          
+        
+        
+      </div>
       
-      <div id="section1" class="container-fluid bg-success text-white" style="height: 400px; padding:100px 20px;">
+      <div id="section2" class="container-fluid bg-success text-white" style="height: 400px; padding:100px 20px;">
         <h1>A Propos</h1>
         <br>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
       </div>
       
-      <div id="section2" class="container-fluid bg-warning" style="height: 500px; padding:100px 20px;">
+      <div id="section3" class="container-fluid bg-warning" style="height: 550px; padding:100px 20px;">
         
         <div class="container mt-3">
           <h1>Compétences</h1>
           <br>
-          <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+          <p>HTML/CSS</p> 
           <div class="progress">
-            <div class="progress-bar progress-bar-striped" style="width:30%"></div>
+            <div class="progress-bar progress-bar-striped" style="width:75%"></div>
           </div>
           <br>
+          <p>JAVASCRIPT</p>
           <div class="progress">
-            <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+            <div class="progress-bar bg-success progress-bar-striped" style="width:50%"></div>
           </div>
           <br>
+          <p>PHP</p>
           <div class="progress">
-            <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+            <div class="progress-bar bg-info progress-bar-striped" style="width:25%"></div>
           </div>
           <br>
+          <p>SQL</p>
           <div class="progress">
-            <div class="progress-bar bg-warning progress-bar-striped" style="width:60%"></div>
+            <div class="progress-bar bg-warning progress-bar-striped" style="width:25%"></div>
           </div>
-          <br>
-          <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
-          </div>
+          
         </div>
       </div>
       
-      <div id="section3" class="container-fluid bg-secondary text-white" style="height: 750px;padding:100px 20px;">
+      <div id="section4" class="container-fluid bg-info text-white" style="height: 750px;padding:200px 20px;">
         <h1>Coordonnées</h1>
         <br>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg> BEAUDONNET Jean-Paul</p>
+          <p><i class="fas fa-home me-3"></i>30 rue de la république 03190 ESTIVAREILLES</p>
+          <p><i class="fas fa-envelope me-3"></i>jpb03.dev@gmail.com</p>
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg> 07/60/55/35/82</p>
+        </div>
       </div>
     </main>
-
-    <footer>
-      <div class="footer">
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <div class="container pt-4">
+        <section class="mb-4">
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg></a>
+        </section>
+      </div>
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright
+      </div>
+    </footer>
+    
+      <!--<div class="footer">
         <p class="propos"><a href="#section1">A Propos</a></p>
         <p class="compétences"><a href="#section2">Compétences</a></p>
         <p class="contact"><a href="#section3">Coordonnées</a></p>
         <p class="copyright">Copyright 2021</p>
       </div>
-    </footer>
+    </footer>-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
